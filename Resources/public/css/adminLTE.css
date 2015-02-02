@@ -576,6 +576,11 @@ body > .header .logo .icon {
 .right-side > .content-header > .breadcrumb > li + li:before {
     content: '>\00a0';
 }
+
+.navbar-nav > li {
+    background: white;
+}
+
 @media screen and (max-width: 767px) {
     .right-side > .content-header > .breadcrumb {
         position: relative;
@@ -2700,7 +2705,7 @@ Component: timeline
     border-bottom: 1px solid #242A34;
 }
 .skin-black .navbar .nav a {
-    color: white;
+    color: #242A34;
 }
 .skin-black .navbar .nav > li > a:hover,
 .skin-black .navbar .nav > li > a:active,

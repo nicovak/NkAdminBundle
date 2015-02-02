@@ -2,5 +2,5 @@ services:
    nk.admin.parameter:
       class: Nk\AdminBundle\Admin\ParameterAdmin
       tags:
-        - { name: sonata.admin, manager_type: orm, group: parameters, label: parametre }
-      arguments: [null, Nk\AdminBundle\Entity\Parameter, Nk\AdminBundle\Admin\ParameterAdmin]
+        - { name: sonata.admin, manager_type: orm, group: parameters, label: Parametre }
+      arguments: [null, Nk\AdminBundle\Entity\Parameter, SonataAdminBundle:CRUD]

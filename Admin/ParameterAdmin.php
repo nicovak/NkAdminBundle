@@ -8,8 +8,6 @@ use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Show\ShowMapper;
 
-use Nk\AdminBundle\Entity\Parameter;
-
 class ParameterAdmin extends Admin
 {
     /**
@@ -63,22 +61,6 @@ class ParameterAdmin extends Admin
                     'delete' => array(),
                 )
             ))
-        ;
-    }
-
-    /**
-     * @param \Sonata\AdminBundle\Datagrid\DatagridMapper $datagridMapper
-     *
-     * @return void
-     */
-    protected function configureDatagridFilters(DatagridMapper $datagridMapper)
-    {
-        $datagridMapper
-            ->add('code')
-            ->add('libelle')
-            ->add('valeur')
-            ->add('contenu')
-            ->add('tags', null, array('field_options' => array('expanded' => true, 'multiple' => true)))
         ;
     }
 }
