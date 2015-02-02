@@ -477,7 +477,7 @@ body > .header .navbar {
 
 body > .header .navbar .sidebar-toggle {
     float: left;
-    padding: 9px 5px;
+    padding: 6px 5px;
     margin-top: 8px;
     margin-right: 0;
     margin-bottom: 8px;
@@ -488,6 +488,7 @@ body > .header .navbar .sidebar-toggle {
     -webkit-border-radius: 0 !important;
     -moz-border-radius: 0 !important;
     border-radius: 0 !important;
+    color: #242A34;
 }
 body > .header .navbar .sidebar-toggle:hover .icon-bar {
     background: #f6f6f6;
