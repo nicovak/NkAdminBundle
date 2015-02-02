@@ -462,12 +462,19 @@ body > .header {
     position: relative;
     max-height: 100px;
     z-index: 1030;
+    border-bottom: 1px solid #242A34;
 }
 body > .header .navbar {
     height: 50px;
     margin-bottom: 0;
     margin-left: 220px;
+    background: white;
 }
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
 body > .header .navbar .sidebar-toggle {
     float: left;
     padding: 9px 5px;
@@ -2702,7 +2709,6 @@ Component: timeline
 /* skin-black navbar */
 .skin-black .navbar {
     background-color: #242A34;
-    border-bottom: 1px solid #242A34;
 }
 .skin-black .navbar .nav a {
     color: #242A34;

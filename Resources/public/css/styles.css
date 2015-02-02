@@ -146,6 +146,7 @@ body > .header .logo {
 
 .navbar-top-links li {
     display: inline-block;
+    background: white;
 }
 
 .navbar-top-links li a,
