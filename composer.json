@@ -3,7 +3,7 @@
   "type":        "symfony-bundle",
   "description": "Simple override and implementation of sonata admin",
   "keywords":    ["sonata-admin", "admin", "symfony", "bundle"],
-  "homepage":    "https://github.com/nicovak/AdminBundle",
+  "homepage":    "https://github.com/nicovak/NkAdminBundle",
   "license":     "MIT",
 
   "authors": [
