@@ -37,7 +37,9 @@ class ParametreAdmin extends Admin
                 ->add('code')
                 ->add('libelle')
                 ->add('valeur')
-                ->add('contenu', 'ckeditor')
+                ->add('contenu', 'ckeditor', array(
+                    'required' => false,
+                    ))
             ->end()
         ;
     }
