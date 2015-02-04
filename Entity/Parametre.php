@@ -8,10 +8,10 @@ use Symfony\Component\Validator\Constraints as Assert;
 /**
  * Parameter
  *
- * @ORM\Table(name="Parameter")
+ * @ORM\Table(name="parametre")
  * @ORM\Entity
  */
-class Parameter
+class Parametre
 {
     /**
      * @ORM\Id

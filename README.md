@@ -2,7 +2,7 @@ Admin bundle implementation sonata admin
 ========================
 
 Default config
-    
+
     sonata_admin:
         title: ADMIN
         dashboard:
@@ -11,13 +11,13 @@ Default config
                     position: left
                     type: sonata.admin.block.admin_list
                     settings:
-                        groups: [parameters]
+                        groups: [parametres]
             groups:
-                parameters:
+                parametres:
                     label: Options
                     icon: '<i class="fa fa-cog"></i>'
                     items:
-                        - nk.admin.parameter
+                        - nk.admin.parametre
         templates:
             layout: NkAdminBundle::standard_layout.html.twig
         assets:
@@ -36,3 +36,12 @@ Default config
                 - bundles/sonataadmin/vendor/x-editable/dist/bootstrap3-editable/css/bootstrap-editable.css
                 - bundles/nkadmin/css/styles.css
                 - bundles/nkadmin/css/layout.css
+    
+    # Stof\DoctrineExtensionBundle configuration
+    stof_doctrine_extensions:
+       #default_locale: fr
+       #translation_fallback: true
+       orm:
+           default:
+               sluggable: true
+               translatable: true
