@@ -1188,6 +1188,12 @@ body > .header .logo .icon {
 .radio {
     padding-left: 0;
 }
+
+textarea {
+    max-width: 100%;
+    width: 100%;
+}
+
 /*
     Compenent: Progress bars
 --------------------------------
