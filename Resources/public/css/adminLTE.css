@@ -3577,5 +3577,10 @@ fieldset[disabled] .btn-vk.active {
 
 .sonata-ba-list-field-actions {
     text-align: center;
-    vertical-align: middle;
+    vertical-align: middle!important;
+    min-width: 150px;
+}
+
+.sonata-ba-list-field-actions > .btn-group > .btn:last-child {
+    margin-right: 0;
 }
