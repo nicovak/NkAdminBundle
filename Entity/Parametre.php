@@ -64,7 +64,10 @@ class Parametre
      * @ORM\Column(name="contenu", type="text", nullable=true)
      */
     private $contenu;
-    
+
+    public function __toString() {
+        return $this->getLibelle();
+    }
 
     /**
      * Get id
