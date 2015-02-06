@@ -3548,3 +3548,34 @@ fieldset[disabled] .btn-vk.active {
     color: #587ea3;
     background-color: #ffffff;
 }
+
+.delete_link, .edit_link, .view_link, .delete_link:hover, .edit_link:hover, .view_link:hover {
+    color: white!important;
+    margin: 0 10px;
+}
+
+.delete_link {
+    background: #e74c3c;
+}
+.delete_link:hover {
+    background: #c0392b;
+}
+
+.edit_link {
+    background: #2ecc71;
+}
+.edit_link:hover {
+    background: #27ae60;
+}
+
+.view_link {
+    background: #3498db;
+}
+.view_link:hover {
+    background: #2980b9;
+}
+
+.sonata-ba-list-field-actions {
+    text-align: center;
+    vertical-align: middle;
+}
