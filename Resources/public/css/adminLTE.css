@@ -3551,7 +3551,7 @@ fieldset[disabled] .btn-vk.active {
 
 .delete_link, .edit_link, .view_link, .delete_link:hover, .edit_link:hover, .view_link:hover {
     color: white!important;
-    margin: 0 10px;
+    margin: 0;
 }
 
 .delete_link {
