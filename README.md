@@ -22,10 +22,6 @@ Default config
             layout: NkAdminBundle::standard_layout.html.twig
         assets:
             stylesheets:
-                - bundles/sonataformatter/markitup/skins/sonata/style.css
-                - bundles/sonataformatter/markitup/sets/markdown/style.css
-                - bundles/sonataformatter/markitup/sets/html/style.css
-                - bundles/sonataformatter/markitup/sets/textile/style.css
                 - bundles/nkadmin/css/bootstrap.min.css
                 - bundles/nkadmin/css/font-awesome.min.css
                 - bundles/sonataadmin/vendor/AdminLTE/css/ionicons.min.css
