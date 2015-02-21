@@ -2119,6 +2119,47 @@ Component: timeline
     background: inherit;
     border: inherit;
 }
+
+.alert-success, .alert-danger {
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+    margin-bottom: 5px;
+}
+
+.alert-success {
+    color: #375717;
+    background-color: #94C580;
+    border-color: #72A35E;
+}
+
+.alert-success:before {
+    content: "";
+    width:10px;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #72A35E;
+}
+
+.alert-danger {
+    color: #8B3432;
+    background-color: #E5B0B0;
+    border-color: #B37A7A;
+}
+
+.alert-danger:before {
+    content: "";
+    width:10px;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #B37A7A;
+}
+
+
 /*
     Component: Navs
 */
@@ -2861,7 +2902,9 @@ Component: timeline
     border-bottom-right-radius: 2px !important;
     border-bottom-left-radius: 0 !important;
     border-left: 0;
+    margin-left: 0px;
 }
+
 /*!
  * iCheck v1.0.1, http://git.io/arlzeA
  * =================================
@@ -2879,43 +2922,44 @@ Component: timeline
     vertical-align: middle;
     margin: 0;
     padding: 0;
-    width: 18px;
-    height: 18px;
-    background: rgba(255, 255, 255, 0.7) url(iCheck/minimal/minimal.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.7) url(iCheck/flat/flat.png) no-repeat;
     border: none;
     cursor: pointer;
 }
+
 .icheckbox_minimal {
     background-position: 0 0;
 }
 .icheckbox_minimal.hover {
-    background-position: -20px 0;
+    background-position: 0 0;
 }
 .icheckbox_minimal.checked {
-    background-position: -40px 0;
+    background-position: -22px 0;
 }
 .icheckbox_minimal.disabled {
-    background-position: -60px 0;
+    background-position: -44px 0;
     cursor: default;
 }
 .icheckbox_minimal.checked.disabled {
-    background-position: -80px 0;
+    background-position: -66px 0;
 }
 .iradio_minimal {
-    background-position: -100px 0;
+    background-position: -88px 0;
 }
 .iradio_minimal.hover {
-    background-position: -120px 0;
+    background-position: -88px 0;
 }
 .iradio_minimal.checked {
-    background-position: -140px 0;
+    background-position: -110px 0;
 }
 .iradio_minimal.disabled {
-    background-position: -160px 0;
+    background-position: -132px 0;
     cursor: default;
 }
 .iradio_minimal.checked.disabled {
-    background-position: -180px 0;
+    background-position: -154px 0;
 }
 /* Retina support */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
