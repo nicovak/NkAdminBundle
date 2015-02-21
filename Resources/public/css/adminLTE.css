@@ -2854,7 +2854,7 @@ Component: timeline
     -moz-border-radius: 2px;
     border-radius: 2px;
     border: 0px solid #555;
-    margin: 10px 10px;
+    margin: 8px 10px;
 }
 .skin-black .sidebar-form input[type="text"],
 .skin-black .sidebar-form .btn {
