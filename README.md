@@ -3,8 +3,8 @@ Admin bundle implementation sonata admin
 
 Default config
 
-    sonata_admin:
-        title: ADMIN
+sonata_admin:
+    title_logo: bundles/nksite/logo_admin.png
         dashboard:
             blocks:
                 -
