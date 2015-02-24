@@ -8,7 +8,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="image")
+ * @ORM\Table(name="nk_image")
  */
 class Image {
 
