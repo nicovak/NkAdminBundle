@@ -6,7 +6,7 @@ services:
             arguments: [null, Nk\AdminBundle\Entity\Parametre, SonataAdminBundle:CRUD]
 
 ## Listener prePersist | preUpdate ##
-   cm.projet.event.listener:
+    cm.projet.event.listener:
         class: Nk\AdminBundle\Listener\ImageListener
         arguments: ['@service_container']
         tags:
