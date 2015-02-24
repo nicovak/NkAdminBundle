@@ -1,6 +1,6 @@
 <?php
 
-namespace Nk\SiteBundle\Admin;
+namespace Nk\AdminBundle\Admin;
 
 use Sonata\AdminBundle\Admin\Admin;
 use Sonata\AdminBundle\Form\FormMapper;

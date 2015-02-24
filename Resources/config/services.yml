@@ -5,6 +5,18 @@ services:
         tags:
             - { name: sonata.admin, manager_type: orm, group: parametres, label: Parametre }
 
+    nk.admin.page:
+        class: Nk\AdminBundle\Admin\PageAdmin
+        arguments: [null, Nk\AdminBundle\Entity\Page, SonataAdminBundle:CRUD]
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: pages, label: Page }
+
+    nk.admin.seo:
+        class: Nk\AdminBundle\Admin\SeoAdmin
+        arguments: [null, Nk\AdminBundle\Entity\Seo, SonataAdminBundle:CRUD]
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: seos, label: Seo }
+
     ## Listener prePersist | preUpdate ##cx
     cm.projet.event.listener:
         class: Nk\AdminBundle\Listener\ImageListener
