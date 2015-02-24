@@ -1,12 +1,12 @@
 services:
-   nk.admin.parametre:
-      class: Nk\AdminBundle\Admin\ParametreAdmin
-      tags:
-        - { name: sonata.admin, manager_type: orm, group: parametres, label: Parametre }
-      arguments: [null, Nk\AdminBundle\Entity\Parametre, SonataAdminBundle:CRUD]
+    nk.admin.parametre:
+        class: Nk\AdminBundle\Admin\ParametreAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: parametres, label: Parametre }
+            arguments: [null, Nk\AdminBundle\Entity\Parametre, SonataAdminBundle:CRUD]
 
 ## Listener prePersist | preUpdate ##
-    cm.projet.event.listener:
+   cm.projet.event.listener:
         class: Nk\AdminBundle\Listener\ImageListener
         arguments: ['@service_container']
         tags:
