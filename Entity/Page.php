@@ -10,7 +10,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 /**
  * Page
  *
- * @ORM\Table(name="page")
+ * @ORM\Table(name="nk_page")
  * @ORM\Entity
  */
 class Page
