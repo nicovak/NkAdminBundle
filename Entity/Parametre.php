@@ -8,7 +8,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 /**
  * Parameter
  *
- * @ORM\Table(name="parametre")
+ * @ORM\Table(name="nk_parametre")
  * @ORM\Entity
  */
 class Parametre
