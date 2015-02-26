@@ -17,6 +17,12 @@ services:
         tags:
             - { name: sonata.admin, manager_type: orm, group: seos, label: Seo }
 
+    nk.admin.image:
+        class: Nk\AdminBundle\Admin\ImageAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: divers, label: Image }
+        arguments: [null, Nk\AdminBundle\Entity\Image, SonataAdminBundle:CRUD]
+
     ## Listener prePersist | preUpdate ##cx
     cm.projet.event.listener:
         class: Nk\AdminBundle\Listener\ImageListener
