@@ -59,28 +59,16 @@ class ImageListener implements EventSubscriber
 
             $image = $entity->getFile();
 
-            $pathToMove = $entity->getUploadRootDir();
+            $pathToMove = $this->container->getParameter('path_image_dir');
 
             if (!is_dir($pathToMove)) {
                 mkdir($pathToMove);
             }
 
-            if (file_exists($pathToMove.$image->getClientOriginalName())) {
-                $i = 0;
-                $pathinfo = pathinfo($image->getClientOriginalName());
-                $dest = $pathToMove.$image->getClientOriginalName();
-                while (file_exists($dest)) {
-                    $i++;
-                    $dest = $pathToMove.$pathinfo['filename'].$i.'.'.$pathinfo['extension'];
-                }
-                $image->move($pathToMove, $dest);
-                $pathToPersist = basename($dest);
+            $name = sha1(uniqid(mt_rand(), true)).'.'.$image->guessExtension();
 
-            } else {
-                $image->move($pathToMove, $image->getClientOriginalName());
-                $pathToPersist = $image->getClientOriginalName();
-            }
-            $entity->setImage($pathToPersist);
+            $image->move($pathToMove, $name);
+            $entity->setImage($name);
 
             return $entity;
         }
