@@ -157,6 +157,7 @@ class Image {
      */
     public function setFile($file)
     {
+        $this->setDateModif(new \DateTime());
         $this->file = $file;
     }
 
