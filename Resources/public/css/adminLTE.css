@@ -162,6 +162,63 @@ img {
     display: inline;
     width: auto;
 }
+/* box */
+.the-box{
+    padding: 15px;
+    margin-bottom: 30px;
+    background: #fff;
+    border: 1px solid #D5DAE0;
+    position: relative;
+    min-height: 170px;
+}
+.the-box.no-border{
+    border:none;
+}
+.tiles-information {
+    overflow: hidden;
+    position: relative;
+}
+.tiles-information p {
+    min-height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.tiles-information h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.tiles-information .icon-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 100px;
+    color: #000;
+    opacity: 0.08;
+    filter:alpha(opacity=8);
+}
+/* bg with btn */
+.bg-dark,
+.bg-primary,
+.bg-success,
+.bg-info,
+.bg-danger,
+.bg-warning {
+    color: #fff;
+    color: rgba(255,255,255,0.7);
+}
+.bg-primary 				{background-color: #37BC9B;}
+a.bg-primary:hover 		{background-color: #29A0CB;}
+.bg-success 				{background-color: #8CC152;}
+a.bg-success:hover 		{background-color: #c1e2b3;}
+.bg-info 				{background-color: #3BAFDA;}
+a.bg-info:hover 			{background-color: #afd9ee;}
+.bg-warning 				{background-color: #F6BB42;}
+a.bg-warning:hover 		{background-color: #f7ecb5;}
+.bg-danger 				{background-color: #E9573F;}
+a.bg-danger:hover 		{background-color: #e4b9b9;}
+.bg-dark 				{background-color: #434A54;}
+a.bg-dark:hover 			{background-color: #434A54;}
+
 /* Background colors */
 .bg-red,
 .bg-yellow,
