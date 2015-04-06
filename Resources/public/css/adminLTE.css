@@ -2006,6 +2006,18 @@ Component: timeline
     background-color: #CB8E12;
     border-color: #CB8E12;
 }
+.btn.btn-dark {
+    color: #fff;
+    background-color: #2F3135;
+    border-color: #2F3135;
+}
+.btn.btn-dark:hover,
+.btn.btn-dark:active,
+.btn.btn-dark.hover {
+    color: #fff;
+    background-color: #25262A;
+    border-color: #25262A;
+}
 .btn.btn-flat {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
