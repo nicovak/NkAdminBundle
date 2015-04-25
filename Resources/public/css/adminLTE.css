@@ -3724,3 +3724,10 @@ fieldset[disabled] .btn-vk.active {
 .sonata-ba-view-title {
     background: #fff;
 }
+
+.gmap {
+    border:1px solid #DDD;
+    width:100%;
+    height: 300px;
+}
+.gmap img { max-width: none; }
