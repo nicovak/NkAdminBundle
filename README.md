@@ -2,9 +2,6 @@ Admin bundle implementation sonata admin
 ========================
 
 Default config
-    twig:
-        globals:
-            home_route_name: home
     sonata_admin:
         title_logo: bundles/nksite/logo_admin.png
             dashboard:
