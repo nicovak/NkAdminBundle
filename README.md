@@ -2,6 +2,9 @@ Admin bundle implementation sonata admin
 ========================
 
 Default config
+twig:
+    globals:
+        home_route_name: home
 sonata_admin:
     title_logo: bundles/nksite/logo_admin.png
         dashboard:
@@ -20,7 +23,7 @@ sonata_admin:
         templates:
             layout: NkAdminBundle::standard_layout.html.twig
         assets:
-             stylesheets:
+            stylesheets:
                 - bundles/nkadmin/css/bootstrap.min.css
                 - bundles/nkadmin/css/font-awesome.min.css
                 - bundles/nkadmin/css/animate.css
@@ -33,7 +36,7 @@ sonata_admin:
                 - bundles/nkadmin/css/adminLTE.css
                 - bundles/nkadmin/css/styles.css
                 - bundles/nkadmin/css/layout.css
-             javascripts:
+            javascripts:
                 - bundles/sonataadmin/vendor/jquery/dist/jquery.min.js
                 - bundles/sonataadmin/vendor/jquery.scrollTo/jquery.scrollTo.min.js
                 - bundles/sonatacore/vendor/moment/min/moment.min.js
