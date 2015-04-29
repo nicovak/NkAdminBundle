@@ -1,1 +1,5 @@
-{% block user_block %}{# Customize this value #}{% endblock %}
+{% block user_block %}
+    <li class="user-footer">
+        <a href="{{ path('fos_user_security_logout') }}" class="btn btn-default btn-flat"><i class="fa fa-sign-out fa-fw"></i> se déconnecter</a>
+    </li>
+{% endblock %}
