@@ -21,7 +21,6 @@ class ParametreAdmin extends Admin
             ->add('code')
             ->add('libelle')
             ->add('valeur')
-            ->add('contenu')
         ;
     }
 
