@@ -55,7 +55,7 @@ class ImageListener implements EventSubscriber
      * @param Nk\SiteBundle\Entity\Image
      */
     public function uploadImage($entity) {
-        if ($entity->getFile()) {
+        if (null !== $entity->getFile()) {
 
             $image = $entity->getFile();
 
