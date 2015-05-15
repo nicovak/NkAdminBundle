@@ -9,5 +9,17 @@ jQuery(function($) {
         },5000);
 
     }
+    
+    /**
+     * Gestion bouton upload
+     */
+    $(document).on('change','.btn-file', function(e){
+        var btn = $(this);
+        btn.find('i').removeClass('fa-plus').addClass('fa-check');
+        btn.find('strong').html(' Fichier ajouté : ');
+        var f = e.target.files[0].name;
+        if(f.length > 30) f = f.substr(0,27)+'...';
+        btn.parent().parent().find('.text-file').val(f);
+    });
 
 });
