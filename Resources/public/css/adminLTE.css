@@ -113,7 +113,10 @@ body.fixed .wrapper {
 /* Content */
 .content {
     padding: 10px 15px;
-    overflow: auto;
+}
+
+.table-responsive {
+    overflow-x:inherit;
 }
 /* Utility */
 /* H1 - H6 font */
