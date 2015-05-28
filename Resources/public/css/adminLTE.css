@@ -2201,7 +2201,7 @@ Component: timeline
 }
 
 .alert-success {
-    color: #375717;
+    color: #375717 !important;
     background-color: #94C580 !important;
     border-color: #72A35E;
 }
@@ -2217,7 +2217,7 @@ Component: timeline
 }
 
 .alert-danger {
-    color: #8B3432;
+    color: #8B3432 !important;
     background-color: #E5B0B0 !important;
     border-color: #B37A7A;
 }
