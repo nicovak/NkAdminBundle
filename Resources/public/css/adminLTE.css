@@ -2136,7 +2136,6 @@ Component: timeline
     margin: 0;
     padding: 15px 30px 15px 15px;
     border-left: 5px solid #eee;
-    color: #333 !important;
 }
 .callout h4 {
     margin-top: 0;
@@ -2149,14 +2148,17 @@ Component: timeline
     background-color: #fff;
 }
 .callout.callout-danger {
+    color: #333 !important;
     background-color: #fcf2f2 !important;
     border-color: #dFb5b4;
 }
 .callout.callout-warning {
+    color: #333 !important;
     background-color: #fefbed !important;
     border-color: #f1e7bc;
 }
 .callout.callout-info {
+    color: #333 !important;
     background-color: #f0f7fd !important;
     border-color: #d0e3f0;
 }
