@@ -2136,6 +2136,7 @@ Component: timeline
     margin: 0;
     padding: 15px 30px 15px 15px;
     border-left: 5px solid #eee;
+    color: #333 !important;
 }
 .callout h4 {
     margin-top: 0;
@@ -2148,15 +2149,15 @@ Component: timeline
     background-color: #fff;
 }
 .callout.callout-danger {
-    background-color: #fcf2f2;
+    background-color: #fcf2f2 !important;
     border-color: #dFb5b4;
 }
 .callout.callout-warning {
-    background-color: #fefbed;
+    background-color: #fefbed !important;
     border-color: #f1e7bc;
 }
 .callout.callout-info {
-    background-color: #f0f7fd;
+    background-color: #f0f7fd !important;
     border-color: #d0e3f0;
 }
 .callout.callout-danger h4 {
@@ -2201,7 +2202,7 @@ Component: timeline
 
 .alert-success {
     color: #375717;
-    background-color: #94C580;
+    background-color: #94C580 !important;
     border-color: #72A35E;
 }
 
@@ -2217,7 +2218,7 @@ Component: timeline
 
 .alert-danger {
     color: #8B3432;
-    background-color: #E5B0B0;
+    background-color: #E5B0B0 !important;
     border-color: #B37A7A;
 }
 
