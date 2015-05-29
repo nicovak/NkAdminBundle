@@ -22,4 +22,9 @@ jQuery(function($) {
         btn.parent().parent().find('.text-file').val(f);
     });
 
+    $('.sidebar-menu>li').each(function(){
+       var icon = $(this).attr('icon');
+       $(icon).insertBefore($(this).find('span'));
+    });
+
 });
