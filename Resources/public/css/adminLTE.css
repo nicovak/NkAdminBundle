@@ -3720,7 +3720,7 @@ fieldset[disabled] .btn-vk.active {
 .select2-container .select2-choice {
     background: #fff;
     border-radius: 0;
-    height: 34px;
+    height: 25px;
     padding-top: 3px;
     border: 1px solid #ccc;
 }
