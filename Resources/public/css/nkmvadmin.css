@@ -9,7 +9,11 @@ body { font-family: 'Open Sans', sans-serif; }
 
 .well { background-color:#242A34; border: 1px solid #242A34; color:#FFF; }
 .content, .content-wrapper { background-color: rgb(59, 78, 89); }
+.sonata-ba-content { color:#fff; }
+.sonata-ba-content a { color: #A3D0EA; }
+.sonata-ba-content a:hover, .sonata-ba-content a:focus { color:#7AA0B6; }
 .box { border-top:3px solid #3c8dbc; }
+
 
 .skin-black .main-header>.logo , .skin-black .navbar { background-color: #242A34 !important; }
 .skin-black .main-header>.navbar>.sidebar-toggle { color: #FFF; text-decoration:none; }
@@ -96,7 +100,9 @@ a.bg-dark:hover { background-color: #434A54; }
 .alert-danger { color: #8B3432 !important; background-color: #E5B0B0 !important; border-color: #B37A7A; }
 .alert-danger:before { content: ""; width:10px; height:100%; position: absolute; top: 0; left: 0; background: #B37A7A; }
 
-.the-box{ padding: 15px; margin-bottom: 30px; border: 1px solid #242A34; position: relative; min-height: 170px; }
+.the-box { padding: 15px; margin-bottom: 30px; border: 1px solid #242A34; position: relative; min-height: 170px; transition:all 0.3s ease; }
+.the-box:hover, .the-box:focus { border-color:#FFF; }
+.the-box:hover .tiles-information .icon-bg, .the-box:focus .tiles-information .icon-bg { transform: rotate(20deg); }
 .the-box.no-border { border:none; }
 .the-box .row { margin-bottom:8px; }
 .tiles-information { overflow: hidden; position: relative; }
