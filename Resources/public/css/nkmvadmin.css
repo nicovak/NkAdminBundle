@@ -10,6 +10,7 @@ body { font-family: 'Open Sans', sans-serif; }
 .well { background-color:#242A34; border: 1px solid #242A34; color:#FFF; }
 .content, .content-wrapper { background-color: rgb(59, 78, 89); }
 .sonata-ba-content { color:#fff; }
+.sonata-ba-content .table { color:#333; }
 .sonata-ba-content a { color: #A3D0EA; }
 .sonata-ba-content a:hover, .sonata-ba-content a:focus { color:#7AA0B6; }
 .box { border-top:3px solid #3c8dbc; }
