@@ -1,7 +1,15 @@
 Admin bundle implementation sonata admin
 ========================
 
-Default config
+
+##composer.json##
+
+
+    "sonata-project/admin-bundle": "2.4.*@dev",
+    "sonata-project/doctrine-orm-admin-bundle": "2.4.*@dev",
+
+
+##Default config##
 
     twig:
         globals:
