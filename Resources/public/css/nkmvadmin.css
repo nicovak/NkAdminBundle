@@ -128,3 +128,10 @@ a.bg-dark:hover { background-color: #434A54; }
 
 .box-footer .select2-container .select2-choice { height:30px; line-height:100%; }
 .gmap { min-height: 300px; } 
+
+.cms-block a.btn-link {
+    color: #34495e;
+}
+.cms-block a.btn-link:hover {
+    color: #34495e;
+}
