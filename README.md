@@ -31,7 +31,6 @@ Admin bundle implementation sonata admin
                             - nk.admin.parametre
         templates:
             layout: NkAdminBundle::base.html.twig
-            edit:   MvSiteBundle:CRUD:edit.html.twig
         assets:
             stylesheets:
                 - bundles/sonatacore/vendor/bootstrap/dist/css/bootstrap.min.css
