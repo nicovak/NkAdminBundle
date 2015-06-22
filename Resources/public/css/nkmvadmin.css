@@ -17,6 +17,7 @@ body { font-family: 'Open Sans', sans-serif; }
 .box .table a { color:#337ab7; }
 .box .table a:hover, .box .table a:focus{ color:#23527c; }
 a.btn, a.btn:hover, a.btn:focus, .box a.btn, .box a.btn:hover, .box a.btn:focus  { color:#fff; }
+.box .sonata-ba-field a.btn { color:#27A283; }
 .box a.btn.btn-default { color:#333; }
 
 
