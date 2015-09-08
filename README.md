@@ -6,7 +6,7 @@ Admin bundle implementation sonata admin
 
 
     "sonata-project/admin-bundle": "2.4.*@dev",
-    "sonata-project/doctrine-orm-admin-bundle": "2.4.*@dev",
+    "sonata-project/doctrine-orm-admin-bundle": "2.3.x-dev",
 
 
 ##Default config##
@@ -47,7 +47,6 @@ Admin bundle implementation sonata admin
                 - bundles/sonataadmin/css/styles.css
                 - bundles/sonataadmin/css/layout.css
                 - bundles/sonataadmin/css/tree.css
-                - bundles/nkadmin/css/bootstrap.min.css
                 - bundles/nkadmin/css/font-awesome.min.css
                 - bundles/nkadmin/css/animate.css
                 - bundles/nkadmin/css/nkmvadmin.css
@@ -66,6 +65,8 @@ Admin bundle implementation sonata admin
                 - bundles/sonataadmin/vendor/admin-lte/dist/js/app.min.js
                 - bundles/sonataadmin/vendor/iCheck/icheck.min.js
                 - bundles/sonataadmin/vendor/slimScroll/jquery.slimscroll.min.js
+                - bundles/sonataadmin/vendor/waypoints/lib/jquery.waypoints.min.js
+                - bundles/sonataadmin/vendor/waypoints/lib/shortcuts/sticky.min.js
                 - bundles/sonataadmin/Admin.js
                 - bundles/sonataadmin/treeview.js
                 - http://maps.google.com/maps/api/js?sensor=false
