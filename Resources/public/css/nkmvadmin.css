@@ -136,3 +136,12 @@ a.bg-dark:hover { background-color: #434A54; }
 .cms-block a.btn-link:hover {
     color: #34495e;
 }
+
+@media (min-width: 768px) {
+    .navbar-right {
+        margin-right: ;
+    }
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-left: 0;
+    }
+}
