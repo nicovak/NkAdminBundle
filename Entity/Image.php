@@ -62,7 +62,7 @@ class Image {
      * @return string
      */
     public function __toString() {
-        return $this->getTitre();
+        return $this->getTitre().' - '.$this->show();
     }
 
     /**
