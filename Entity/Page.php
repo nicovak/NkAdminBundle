@@ -58,7 +58,7 @@ class Page
 
     /**
      * @var \Url
-     * @Gedmo\Slug(fields={"url"})
+     * @Gedmo\Slug(fields={"titre"})
      * @ORM\Column(name="url", type="string", length=100, nullable=false)
      */
     private $url;
