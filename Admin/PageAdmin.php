@@ -37,7 +37,8 @@ class PageAdmin extends Admin
                 'empty_value'   => 'Sélectionner',
                 'required'      => true
             ))
-            ->add('description', 'ckeditor', array(
+            ->add('description', 'textarea', array(
+                'attr'      => array('maxlength' => 255),
                 'required'  => true
             ))
             ->add('contenu', 'ckeditor', array(
