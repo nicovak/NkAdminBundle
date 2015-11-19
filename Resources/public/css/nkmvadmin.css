@@ -137,6 +137,16 @@ a.bg-dark:hover { background-color: #434A54; }
     color: #34495e;
 }
 
+.locale_switcher a {
+    background-color: #242A34;
+    border-radius: 2px;
+    padding: 0px 5px 5px;
+}
+
+.locale_switcher a.active {
+    background-color: #37BC9B;
+}
+
 @media (min-width: 768px) {
     .navbar-right {
         margin-right: 0;
