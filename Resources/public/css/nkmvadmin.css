@@ -144,7 +144,7 @@ a.bg-dark:hover { background-color: #434A54; }
 }
 
 .locale_switcher a.active {
-    background-color: #37BC9B;
+    background-color: #3C8DBC;
 }
 
 @media (min-width: 768px) {
