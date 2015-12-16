@@ -33,9 +33,10 @@ class PageAdmin extends Admin
                 'attr'      => array('maxlength' => 255),
                 'required'  => true
             ))
-            ->add('seo', 'sonata_type_model', array(
-                'empty_value'   => 'Sélectionner',
-                'required'      => true
+            ->add('seo', 'sonata_type_admin', array(
+                'required'      => true,
+                'btn_delete'    => false,
+                'btn_add'    => false
             ))
             ->add('description', 'textarea', array(
                 'attr'      => array('maxlength' => 255),
