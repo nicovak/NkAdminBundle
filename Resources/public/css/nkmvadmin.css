@@ -147,6 +147,10 @@ a.bg-dark:hover { background-color: #434A54; }
     background-color: #3C8DBC;
 }
 
+.thumb-img {
+    background-color: #CCC;
+}
+
 @media (min-width: 768px) {
     .navbar-right {
         margin-right: 0;
