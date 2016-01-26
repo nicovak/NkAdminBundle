@@ -19,7 +19,7 @@ body { font-family: 'Open Sans', sans-serif; }
 a.btn, a.btn:hover, a.btn:focus, .box a.btn, .box a.btn:hover, .box a.btn:focus  { color:#fff; }
 .box .sonata-ba-field a.btn { color:#fff; background-color: #27A283; border-radius: 2px; }
 .box a.btn.btn-default { color:#333; }
-
+.sonata-bc .breadcrumb { display: none; }
 
 .skin-black .main-header>.logo , .skin-black .navbar { background-color: #242A34 !important; }
 .skin-black .main-header>.navbar>.sidebar-toggle { color: #FFF; text-decoration:none; }
