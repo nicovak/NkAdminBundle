@@ -54,7 +54,8 @@ class ImageListener implements EventSubscriber
      *
      * @param Nk\SiteBundle\Entity\Image
      */
-    public function uploadImage($entity) {
+    public function uploadImage($entity)
+    {
         if (null !== $entity->getFile()) {
 
             $image = $entity->getFile();
@@ -65,10 +66,12 @@ class ImageListener implements EventSubscriber
                 mkdir($pathToMove);
             }
 
-            $name = sha1(uniqid(mt_rand(), true)).'.'.$image->guessExtension();
+            if (is_file($image)) {
+                $name = sha1(uniqid(mt_rand(), true)).'.'.$image->guessExtension();
 
-            $image->move($pathToMove, $name);
-            $entity->setImage($name);
+                $image->move($pathToMove, $name);
+                $entity->setImage($name);
+            }
 
             return $entity;
         }
