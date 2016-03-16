@@ -67,7 +67,7 @@ class ImageListener implements EventSubscriber
             }
 
             if (is_file($image)) {
-                $name = sha1(uniqid(mt_rand(), true)).'.'.$image->guessExtension();
+                $name = sha1(uniqid(mt_rand(), true)).'.'.$image->getClientOriginalExtension();
 
                 $image->move($pathToMove, $name);
                 $entity->setImage($name);
