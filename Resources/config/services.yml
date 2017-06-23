@@ -3,13 +3,13 @@ services:
         class: Nk\AdminBundle\Admin\ParametreAdmin
         arguments: [null, Nk\AdminBundle\Entity\Parametre, SonataAdminBundle:CRUD]
         tags:
-            - { name: sonata.admin, manager_type: orm, group: parametres, label: Parametre }
+            - { name: sonata.admin, manager_type: orm, group: parametres, label: Parametres }
 
     nk.admin.page:
         class: Nk\AdminBundle\Admin\PageAdmin
         arguments: [null, Nk\AdminBundle\Entity\Page, SonataAdminBundle:CRUD]
         tags:
-            - { name: sonata.admin, manager_type: orm, group: pages, label: Page }
+            - { name: sonata.admin, manager_type: orm, group: pages, label: Pages }
 
     nk.admin.seo:
         class: Nk\AdminBundle\Admin\SeoAdmin
@@ -20,7 +20,7 @@ services:
     nk.admin.image:
         class: Nk\AdminBundle\Admin\ImageAdmin
         tags:
-            - { name: sonata.admin, manager_type: orm, group: divers, label: Image }
+            - { name: sonata.admin, manager_type: orm, group: divers, label: Images }
         arguments: [null, Nk\AdminBundle\Entity\Image, SonataAdminBundle:CRUD]
 
     ## Listener prePersist | preUpdate ##cx
