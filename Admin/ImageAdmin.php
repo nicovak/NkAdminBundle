@@ -34,8 +34,12 @@ class ImageAdmin extends Admin
     {
         $formMapper
             ->with('General')
-                ->add('titre')
-                ->add('description');
+                ->add('titre', null, array(
+                    'label' => "Titre de l'image"
+                ))
+                ->add('description', null, array(
+                    'label' => "Description de l'image"
+                ));
 
         $subject = $this->getSubject();
         if ($subject && $subject->getImage()) {
